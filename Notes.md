@@ -31,5 +31,5 @@ That course was of poor quality but the tutorial in the Angular Docs is much bet
 Continue following the Tour Of Heroes Tutorial from here https://angular.io/tutorial/toh-pt1
 At Edit the Hero
 
-Got up to part 4 of the tutorial https://angular.io/tutorial/toh-pt4
-Next section is Show Messages
+Got up to part 5 of the tutorial https://angular.io/tutorial/toh-pt4
+Just starting
