@@ -10,7 +10,7 @@ If Node and NPM has not already been installed follow this guide
 2.	Once installed run “nvm install node”, this will install Node and NPM
 Note: nvm is not supported on windows but will work with git bash and WSL
 Note: there may be compatibility issued between Angular and Node. You will know if you run “ng –version” in your project folder and it says “Warning: The current version of Node (18.2.0) is not supported by Angular.”. If this is the case check the compatible version here (https://stackoverflow.com/questions/60248452/is-there-a-compatibility-list-for-angular-angular-cli-and-node-js) and download a compatible version of Node.js with the command “nvm install <MAJOR_VERSION_NUMBER>”, in my case the major version number was 16. Then run “nvm use <MAJOR_VERSION_NUMBER>” and then reinstall Angular, check there are no issues with “ng --version”
-
+Note: it may be nesessary to change the version of Angular you have installed. You can do this with 'npm install -g @angular/cli@[VERSION_NUMBER]'
 Note: with my set up I would get a command not found after installation. I eventually worked out it was because I didn’t have a profile file for my terminal, git bash. I was able to fix this by creating a “.bashrc” file in my home directory, then restarting my terminal. I then re ran the install.sh script for nvm and this resolved my issue.
 
 Install angular 
@@ -31,5 +31,5 @@ That course was of poor quality but the tutorial in the Angular Docs is much bet
 Continue following the Tour Of Heroes Tutorial from here https://angular.io/tutorial/toh-pt1
 At Edit the Hero
 
-Got up to part 5 of the tutorial https://angular.io/tutorial/toh-pt4
-Just starting
+Got up to part 6 of the tutorial https://angular.io/tutorial/toh-pt6
+Just started, only added the HTTP CLIENT MODULE to app.module.ts
